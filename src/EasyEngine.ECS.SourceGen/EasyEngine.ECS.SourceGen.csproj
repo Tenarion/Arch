@@ -8,6 +8,7 @@
     <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
     <Nullable>enable</Nullable>
     <Configurations>Debug;Release;Release-Pure;Release-PureECS;Release-Events;Debug-PureECS;Debug-Events</Configurations>
+    <RootNamespace>Arch.SourceGen</RootNamespace>
     <!--<TreatWarningsAsErrors>true</TreatWarningsAsErrors>-->
   </PropertyGroup>
 

@@ -216,6 +216,12 @@ public static partial class EntityExtensions
         var world = World.Worlds[entity.WorldId];
         world.Remove<T>(entity);
     }
+
+    public static void Remove(this in Entity entity, ComponentType type)
+    {
+        var world = World.Worlds[entity.WorldId];
+        world.Remove(entity, type);
+    }
 #endif
 }
 
