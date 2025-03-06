@@ -255,7 +255,7 @@ public readonly struct Entity : IEquatable<Entity>, IComparable<Entity>
 ///     represents a reference to an <see cref="Entity"/> and its Version.
 /// </summary>
 [SkipLocalsInit]
-public readonly struct EntityReference
+public readonly struct EntityReference : IEquatable<EntityReference>
 {
 
     /// <summary>
